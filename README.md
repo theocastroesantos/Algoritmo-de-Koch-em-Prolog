@@ -14,7 +14,7 @@ O mesmo programa que aplica as regras também deduz de trás para frente qual pa
 Para executar a lógica do programa, execute num interpretador padrão de Prolog como SWI-Prolog o(s) seguintes comandos:
 
 ```prolog
-$ swipl principal.pl
+$ swipl main.pl
 
 ?- gerar_questionario(2, ['K', 'M', 'K'], Sinais).
 Sinais = [traco,ponto,traco,espaco,traco,traco,espaco,traco,ponto,traco,espaco].
